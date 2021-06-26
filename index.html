@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href = "style.css"/>
+</head>
+<body>
+    <script scr="script.js"defer></script>
+    <div class = "container">
+     <div class ="block">
+        <h1>Password Generator</h1>
+        <input type ="text" id="textarea" readonly>
+        <button id= "copyToClipboard">Copy</button>
+    </div>
+
+    <div class= "block">
+        Length :<input type = "text" maxlength = "128" id = "length">
+    </div>
+    <div class ="block">
+        Allow UpperCase :<input type = "checkbox" checked name = "allow" id = "upperCase" class="check">  
+    </div>
+    <div class ="block">
+        Allow LowerCase :<input type = "checkbox" checked name = "allow" id = "lowerCase" class="check">  
+    </div>
+    <div class ="block">
+        Allow Numbers :<input type = "checkbox" checked name = "allow" id = "numbers" class="check">  
+    </div>
+    <div class ="block">
+        Allow Symbols :<input type = "checkbox" checked name = "allow" id = "symbols" class="check">  
+    </div>
+    <div class ="block">
+        <button id = "generatePassword">Generate</button> 
+    </div>
+
+</body>
+</html> 

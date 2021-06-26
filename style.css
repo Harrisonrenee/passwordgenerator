@@ -1,0 +1,75 @@
+/*CSS reset*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: darkgrey;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+border: 2px solid black;
+width: 390px;
+height: 310px;
+margin:220px auto;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+background-color: blueviolet;
+
+}
+.block{
+    display:flex;
+    background: 2px solid black ;
+    width:350px;
+    padding:8px 10px;
+    align-items: center;
+    justify-content: baseline;
+    font-size: 18px;
+}
+#textarea{
+    background-color: white;
+    color: white;
+    border-radius: 5px;
+    width: 170px;
+    height: 30px;
+    font-size: 20px;
+}
+#copyToClipboard{
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: thistle;
+    height:30px;
+    width:50px;
+}
+#length{
+    background-color:lightpink;
+    color: darkslategray;
+    position: relative;
+    right: 0;
+    width: 40px;
+    margin:0 20px;
+}
+.check{
+    position: relative;
+    left: 20px;
+}
+
+#generatepassword{
+    background-color: red;
+    border-radius: 15px;
+    color: white;
+    font-size: 30px;
+    width: inherit;
+    padding:5px;
+    outline: none;
+
+}
+
